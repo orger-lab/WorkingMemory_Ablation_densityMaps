@@ -9,7 +9,7 @@ The analysis is split into two main workflows. Scripts should be executed in the
 ### Part 1: Cell Counting and Plotting
 1. **`CountAblatedCells_Script.m`**
    * **Description:** Counts the number of voxels in the ablated region for each subject.
-   * **Outputs:** * A `.csv` file for each fish containing the voxel counts.
+   * **Outputs:** A `.csv` file for each fish containing the voxel counts.
      * Two binary `.tif` files corresponding to the areas of interest (pre- and post-ablation).
 
 2. **`mergeCSV.m`**
